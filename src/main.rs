@@ -45,7 +45,7 @@ fn main() {
         } else {
             let programs = api::get_programs();
 
-            println!("Updating the monitor map for {} monitors...", monitor_count);
+            // println!("Updating the monitor map for {} monitors...", monitor_count);
             // update window map
             if monitor_map.contains_key(&monitor_count) {
                 monitor_map.remove(&monitor_count);
